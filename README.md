@@ -46,7 +46,6 @@
 
 云同步（BeeCount Cloud / Supabase / WebDAV / S3 / iCloud）、AI 智能记账与 AI 助手、语音记账、拍照记账、相册/截图记账、共享账本与成员管理、邀请码、给项目点 Star、分享应用、复制推广文案、支持我们（内购打赏）、检查更新、使用帮助（在线文档）、姐妹产品推广（BeeAssets / BeeDNS）、主题商店里的运营位、隐私政策在线页（改为本地纯文本）。
 
-> 这些不是"藏起来"，是把页面代码一起删了；`flutter analyze` 无 error。
 
 ## 视觉
 
@@ -72,12 +71,6 @@ flutter build apk --release --flavor prod
 # 产物：build/app/outputs/flutter-apk/app-prod-release.apk
 ```
 
-要点：
-
-1. **必须带 `--flavor prod`**，否则 Gradle 找不到目标。
-2. 签名配置在 `android/key.properties`（不在仓库里），字段 `storeFile / storePassword / keyAlias / keyPassword`；没有它 Gradle 会退回 debug 签名。
-3. `android/gradle.properties` 里若有指向 `127.0.0.1:xxxx` 的代理，记得注释掉，否则 R8 会卡住。
-4. 换图标资源后请 `flutter clean` 再打包——`build/flutter_assets` 是增量的，删掉的文件还会被打进去。
 
 ## 目录
 
