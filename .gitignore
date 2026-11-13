@@ -39,3 +39,7 @@ keystore/
 .DS_Store
 Thumbs.db
 *.log
+
+# 个人开发笔记（不进仓库，只留本地）
+开发交接.md
+改造记录.md
