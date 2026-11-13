@@ -8,6 +8,20 @@
 
 ---
 
+## 截图
+
+| 明细（首页） | 洞察 | 记账 |
+|---|---|---|
+| ![明细](docs/screenshots/01-detail.png) | ![洞察](docs/screenshots/02-insight.png) | ![记账](docs/screenshots/03-record.png) |
+
+| 我的 | 关于 |
+|---|---|
+| ![我的](docs/screenshots/04-profile.png) | ![关于](docs/screenshots/05-about.png) |
+
+> 截图取自 900×1600 / Android 14 环境实拍，账目为演示数据。桌面图标、启动页与分类图标为 190 张手绘贴纸风 WebP。
+
+---
+
 ## 现在保留什么
 
 | 模块 | 说明 |
