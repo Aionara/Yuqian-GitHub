@@ -2,7 +2,7 @@
   <img src="docs/brand/logo.png" width="128" alt="余钱">
 </p>
 
-# 余钱记账 App
+# 余钱 · 记账 App
 
 一个**只做本地记账**的 Android 记账应用。在原开源项目 [BeeCount](https://github.com/TNT-Likely/BeeCount)（BSL 1.1 许可）的基础上做了大幅精简与重做视觉，去掉了一切联网、云同步、AI、社交和运营类功能，只留下记账本身。
 
