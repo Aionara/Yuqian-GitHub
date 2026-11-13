@@ -1,0 +1,41 @@
+# ---- Flutter / Dart ----
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# ---- Android 构建与本机配置 ----
+android/.gradle/
+android/.kotlin/
+android/app/build/
+android/local.properties
+android/key.properties
+*.apk
+*.ap_
+*.aab
+
+# ---- iOS ----
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/ephemeral/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+
+# ---- 签名与私密（绝不入库）----
+keystore/
+*.jks
+*.keystore
+*.p12
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.agents/
+.claude/
+.DS_Store
+Thumbs.db
+*.log
