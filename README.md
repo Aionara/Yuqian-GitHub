@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/brand/logo.png" width="128" alt="余钱">
+</p>
+
 # 余钱 · 私人精简版记账 App
 
 一个**只做本地记账**的 Android 记账应用。在原开源项目 [BeeCount](https://github.com/TNT-Likely/BeeCount)（BSL 1.1 许可）的基础上做了大幅精简与重做视觉，去掉了一切联网、云同步、AI、社交和运营类功能，只留下记账本身。
@@ -52,11 +56,11 @@
 - **字体**：系统字体（不打包中文字体，省 12 MB）
 - **品牌名**：余钱（Android 四语言 `app_name`；文案里统一替换）
 
+品牌图标源文件见 `docs/brand/`（512×512 图标、216×216 小尺寸）。
+
 ## 技术栈
 
 Flutter 3.27 / Dart 3 · Drift(SQLite) · Riverpod · fl_chart · home_widget · flutter_localizations（4 语言：zh / zh_TW / en / ko）
-
-> **要改代码先看 [`开发交接.md`](开发交接.md)**：目录地图、最常改的 6 件事（文案 / 分类图标 / 桌面图标与启动页 / 主题色 / 删功能 / 分享海报）、签名与打包、会把你坑住的 9 条、不能碰的技术标识。逐步变更历史见 [`改造记录.md`](改造记录.md)。
 
 ## 构建
 
